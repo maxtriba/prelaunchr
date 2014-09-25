@@ -6,7 +6,7 @@
 development:
   adapter: postgresql
   database: prelaunchr
-  host: localhost
+  host: ec2-54-235-250-41.compute-1.amazonaws.com
 
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
@@ -19,4 +19,4 @@ test:
 production:
   adapter: postgresql
   database: prelaunchr
-  host: localhost
+  host: ec2-54-235-250-41.compute-1.amazonaws.com

@@ -1,5 +1,3 @@
-config.assets.initialize_on_precompile = false
-
 require File.expand_path('../boot', __FILE__)
 
 require 'rails/all'
@@ -64,5 +62,7 @@ module Prelaunchr
     config.assets.version = '1.0'
 
     config.ended = false
+    
+    config.assets.initialize_on_precompile = false
   end
 end

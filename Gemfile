@@ -46,3 +46,5 @@ gem 'unicorn'
 # gem 'debugger'
 
 ruby '2.0.0'
+
+gem 'rails_12factor', group: :production

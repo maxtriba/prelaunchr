@@ -31,7 +31,7 @@ form{
 /* Home */
 
 html.home{
-	background: #EDECEA;
+	background: #FFFFFF;
 }
 
 #home{
@@ -45,9 +45,9 @@ html.home{
 
 #home .hero{
 	width: 100%;
-	height: 446px;
-	background: url(/assets/home/hero.jpg) center center no-repeat;
-	background-size: 1600px 446px;
+	height: 450px;
+	background: url(/assets/home/hero.png) center center no-repeat;
+	background-size: 450px 300px;
 	overflow: hidden;
 	position: relative;
 	letter-spacing: .09em;
@@ -82,7 +82,7 @@ html.home{
 #home .form-wrap{
 	height: 80px;
 	width: 411px;
-	margin: 23px auto 0;
+	margin: 0px auto 0;
 }
 
 #home .form-wrap .key{
@@ -95,12 +95,11 @@ html.home{
 
 #home .form-wrap .byline{
 	font-size: 15px;
-	text-transform: uppercase;
-	color: #074E6F;
+	color: #000000;
 	text-align: center;
 	font-weight: bold;
 	letter-spacing: 2px;
-	margin: 15px 0;
+	margin: 5px 0;
 }
 
 #home .form-wrap .email{
@@ -115,12 +114,12 @@ html.home{
 
 #home .form-wrap .submit{
 	width: 143px;
-	background: #074E6F;
+	background: #000000;
 	float: left;
-	height: 37px;
-	line-height: 37px;
+	height: 33px;
+	line-height: 30px;
 	color: #FFF;
-	font-size: 13px;
+	font-size: 15px;
 	text-transform: uppercase;
 	border: 0;
 	letter-spacing: 2px;
@@ -263,7 +262,7 @@ html.home{
 
 #refer .header{
 	height: 50px;
-	background: #074E6F;
+	background: #FFFFFF;
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -293,7 +292,7 @@ html.home{
 	line-height: 0;
 	margin-right: 14px;
 	letter-spacing: 1px;
-	background: url(/assets/refer/logo.png) 0 0 no-repeat;
+	/* background: url(/assets/refer/logo.png) 0 0 no-repeat; */
 	background-size: 106px 19px;
 	height: 19px;
 	width: 106px;
@@ -301,18 +300,20 @@ html.home{
 }
 
 #refer .hero{
-	background: #F1F0EE;
+	/* background: #F1F0EE; */
+	background: #FFFFFF
 	height: 391px;
 	overflow: hidden;
 }
 
 #refer .mammoth{
-	width: 612px;
-	height: 394px;
-	background: url(/assets/refer/mammoth.png) 0 0 no-repeat;
-	background-size: 610px 394px;
+	width: 130px;
+	height: 380px;
+	background: url(/assets/refer/Grefer/model.png) 0 0 no-repeat;
+	background-size: 130px 357px;
 	overflow: hidden;
-	margin-top: 15px;
+	margin-top: 5px;
+	margin-left: 250px;
 	float: left;
 }
 
@@ -330,36 +331,54 @@ html.home{
 }
 
 #refer .share-wrap{
+	/* background: url(/assets/refer/Grefer/G_8opacity.png) 0 0 no-repeat; */
 	float: right;
 	width: 400px;
+	height: 400px;
 	text-align: center;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 	letter-spacing: .13em;
-	margin-right: 60px;
+	margin-right: 300px;
+	margin-top: 15px;
 }
 
 #refer .share-wrap .why{
 	font-size: 16px;
 	color: #555556;
 	font-weight: bold;
-	margin-top: 42px;
+	margin-top: 60px;
 }
 
 #refer .share-wrap .title{
-	font-size: 30px;
+	font-size: 24px;
 	line-height: 40px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
+	font-family: 'Open Sans Condensed', sans-serif;
 	font-weight: bold;
-	color: #074E6F;
-	margin-top: 18px;
+	/* color: #074E6F; */
+	color: #000000;
+	margin-top: 30px;
+	letter-spacing: .13em;
+}
+
+#refer .share-wrap .title1{
+	font-size: 32px;
+	line-height: 40px;
+	/* text-transform: uppercase; */
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-weight: bold;
+	/* color: #074E6F; */
+	color: #000000;
+	margin-top: 30px;
 	letter-spacing: .13em;
 }
 
 #refer .share-wrap .subtitle{
 	color: #565656;
-	font-size: 14px;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 18px;
 	text-transform: none;
-	margin-top: 15px;
+	margin-top: 10px;
 }
 
 #refer .share-wrap .copy-link{
@@ -407,7 +426,7 @@ html.home{
 #refer .prizes{
 	width: 100%;
 	background: #FFF;
-	border-top: 1px solid #D2D1C8;
+	/* border-top: 1px solid #D2D1C8; */
 	padding-bottom: 100px;
 }
 
@@ -416,13 +435,14 @@ html.home{
 }
 
 #refer .prizes .callout{
+	font-family: 'Open Sans Condensed', sans-serif;
 	text-align: center;
-	font-size: 16px;
-	color: #074E6F;
-	font-weight: bold;
+	font-size: 24px;
+	color: #000000;
+	/* font-weight: bold; */
 	margin: 20px 0 0 0;
 	letter-spacing: 2px;
-	text-transform: uppercase;
+	/* text-transform: uppercase; */
 }
 
 #refer .prizes .progress{
@@ -465,14 +485,13 @@ html.home{
 
 #refer .prizes .products li.title{
 	height: 100%;
-	text-transform: uppercase;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color: #074E6F;
 	font-weight: 500;
-	font-size: 14px;
+	font-size: 18px;
 	float: left;
 	margin-right: 68px;
 	width: 165px;
-	font-weight: bold;
 }
 
 #refer .prizes .products li.title .friends{
@@ -585,7 +604,7 @@ html.home{
 	color: #074E6F;
 	width: 100%;
 	font-weight: 500;
-	margin-top: 30px;
+	margin-top: 50px;
 }
 
 #refer .prizes p.place span{
@@ -631,7 +650,7 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-		background: url(/assets/home/hero@2x.jpg) center center no-repeat;
+		background: url(/assets/home/hero.png) center center no-repeat;
 		background-size: 1600px 446px;
 	}
 

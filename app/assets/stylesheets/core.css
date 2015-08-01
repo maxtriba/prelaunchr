@@ -49,8 +49,8 @@ html.home{
 	height: 352px;
 	background: url(/assets/refer/Grefer/test_logo.png) center center no-repeat;
 	background-size: 500px, 352px;
-	/*overflow: hidden;*/
-	/*position: relative;*/
+	overflow: hidden;
+	position: relative;
 	letter-spacing: .09em;
 	margin-top: 10px;
 	margin: 0 auto;

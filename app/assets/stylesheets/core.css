@@ -35,12 +35,12 @@ html.home{
 }
 
 #home{
-	margin-top: 25px;
+	margin-top: 15px;
 	padding-bottom: 50px;
 }
 
 #home .page-content{
-	width: 450px;
+	/*width: 450px;*/
 	margin: 0 auto;
 }
 
@@ -48,11 +48,10 @@ html.home{
 	width: 500px;
 	height: 352px;
 	background: url(/assets/refer/Grefer/home_logo.png) center center no-repeat;
-	background-size: 500px 352px;
-	overflow: hidden;
-	position: relative;
+	/*overflow: hidden;*/
+	/*position: relative;*/
 	letter-spacing: .09em;
-	margin-top: 15px;
+	margin-top: 10px;
 	margin: 0 auto;
 }
 
@@ -61,8 +60,8 @@ html.home{
 	font-size: 40px;
 	color: #FFFFFF;
 	text-transform: uppercase;
-	margin: 85px 0 0 136px;
-	position: relative;
+	/*margin: 45px 0 0 136px;*/
+	/*position: relative;*/
 	z-index: 2;
 	letter-spacing: 2px;
 }
@@ -341,7 +340,7 @@ html.home{
 	text-align: center;
 	/* text-transform: uppercase; */
 	letter-spacing: .13em;
-	margin-right: 20%;
+	margin-right: 25%;
 	margin-top: 15px;
 }
 

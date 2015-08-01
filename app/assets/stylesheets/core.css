@@ -35,6 +35,7 @@ html.home{
 }
 
 #home{
+	margin-top: 25px;
 	padding-bottom: 50px;
 }
 
@@ -44,13 +45,14 @@ html.home{
 }
 
 #home .hero{
-	/*width: 100%;*/
-	height: 450px;
+	width: 500px;
+	height: 352px;
 	background: url(/assets/refer/Grefer/home_logo.png) center center no-repeat;
-	background-size: 450px 300px;
+	background-size: 500px 352px;
 	overflow: hidden;
 	position: relative;
 	letter-spacing: .09em;
+	margin-top: 15px;
 	margin: 0 auto;
 }
 
@@ -308,10 +310,10 @@ html.home{
 }
 
 #refer .mammoth{
-	width: 130px;
-	height: 357px;
+	width: 110px;
+	height: 302px;
 	background: url(/assets/refer/Grefer/model.png) 0 0 no-repeat;
-	background-size: 130px 357px;
+	background-size: 110px 302px;
 	overflow: hidden;
 	margin-top: 5px;
 	margin-left: 25%;

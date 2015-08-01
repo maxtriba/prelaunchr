@@ -39,7 +39,7 @@ html.home{
 }
 
 #home .page-content{
-	width: 1400px;
+	width: 450px;
 	margin: 0 auto;
 }
 
@@ -250,7 +250,8 @@ html.home{
 }
 
 #refer{
-	background: #FFF;
+	/*background: #FFF;*/
+	background: url(/assets/refer/Grefer/symphony_light.png) 0 0 repeat;
 }
 
 #refer .page-content{
@@ -262,7 +263,7 @@ html.home{
 
 #refer .header{
 	height: 50px;
-	background: #FFFFFF;
+	/*background: #FFFFFF;*/
 	width: 100%;
 	overflow:hidden;
 	z-index: 1;
@@ -275,7 +276,7 @@ html.home{
 }
 
 #refer .header p{
-	float: left;
+	float: right;
 	color: #FFF;
 	font-weight: 500;
 	text-transform: uppercase;
@@ -301,25 +302,25 @@ html.home{
 
 #refer .hero{
 	/* background: #F1F0EE; */
-	background: #FFFFFF;
-	height: 391px;
+	/*background: #FFFFFF; */
+	height: 400px;
 	overflow: hidden;
 }
 
 #refer .mammoth{
 	width: 130px;
-	height: 380px;
+	height: 357px;
 	background: url(/assets/refer/Grefer/model.png) 0 0 no-repeat;
 	background-size: 130px 357px;
 	overflow: hidden;
 	margin-top: 5px;
-	margin-left: 250px;
+	margin-left: 25%;
 	float: left;
 }
 
 #refer .mammoth .need{
 	color: #FFF;
-	font-size: 38px;
+	font-size: 32px;
 	text-transform: uppercase;
 	font-weight: bold;
 	margin: 102px 0 0 72px;
@@ -338,7 +339,7 @@ html.home{
 	text-align: center;
 	/* text-transform: uppercase; */
 	letter-spacing: .13em;
-	margin-right: 300px;
+	margin-right: 20%;
 	margin-top: 15px;
 }
 
@@ -346,44 +347,46 @@ html.home{
 	font-size: 16px;
 	color: #555556;
 	font-weight: bold;
-	margin-top: 60px;
-}
-
-#refer .share-wrap .title{
-	font-size: 24px;
-	line-height: 40px;
-	/* text-transform: uppercase; */
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: bold;
-	/* color: #074E6F; */
-	color: #000000;
-	margin-top: 30px;
-	letter-spacing: .13em;
+	margin-top: 40px;
 }
 
 #refer .share-wrap .title1{
-	font-size: 32px;
+	font-size: 38px;
 	line-height: 40px;
-	/* text-transform: uppercase; */
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-weight: bold;
+	text-transform: uppercase;
+	font-family: 'Bitter', serif;
+	font-weight: 700;
 	/* color: #074E6F; */
 	color: #000000;
-	margin-top: 30px;
+	margin-top: 20px;
+	letter-spacing: .13em;
+}
+
+
+#refer .share-wrap .title{
+	font-size: 18px;
+	line-height: 30px;
+	/*text-transform: uppercase;*/
+	font-family: 'Bitter', serif;
+	font-weight: 400;
+	/* color: #074E6F; */
+	color: #000000;
+	margin-top: 20px;
 	letter-spacing: .13em;
 }
 
 #refer .share-wrap .subtitle{
 	color: #565656;
-	font-family: 'Open Sans Condensed', sans-serif;
-	font-size: 18px;
+	font-family: 'Bitter', serif;
+	font-weight: 400;
+	font-size: 14px;
 	text-transform: none;
 	margin-top: 10px;
 }
 
 #refer .share-wrap .copy-link{
 	border: 1px solid #D1D0C7;
-	background: #FFF;
+	/*background: #FFF;*/
 	padding: 10px 0;
 	width: 320px;
 	text-transform: none;
@@ -426,7 +429,7 @@ html.home{
 #refer .prizes{
 	width: 100%;
 	background: #FFF;
-	/* border-top: 1px solid #D2D1C8; */
+	border-top: 1px solid #D2D1C8;
 	padding-bottom: 100px;
 }
 
@@ -435,12 +438,13 @@ html.home{
 }
 
 #refer .prizes .callout{
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Bitter', serif;
+	font-weight: 400;
 	text-align: center;
 	font-size: 24px;
 	color: #000000;
 	/* font-weight: bold; */
-	margin: 20px 0 0 0;
+	margin: 30px 0 0 0;
 	letter-spacing: 2px;
 	/* text-transform: uppercase; */
 }
@@ -485,9 +489,9 @@ html.home{
 
 #refer .prizes .products li.title{
 	height: 100%;
-	font-family: 'Open Sans Condensed', sans-serif;
+	font-family: 'Bitter', serif;
+	font-weight: 400;
 	color: #074E6F;
-	font-weight: 500;
 	font-size: 18px;
 	float: left;
 	margin-right: 68px;

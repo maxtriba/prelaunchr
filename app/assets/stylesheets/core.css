@@ -39,59 +39,21 @@ html.home{
 	padding-bottom: 50px;
 }
 
-#home .page-content{
-	/*width: 450px;*/
-	margin: 0 auto;
-}
-
 #home .hero{
 	width: 500px;
 	height: 352px;
 	background: url(/assets/refer/Grefer/home_logo.png) center center no-repeat;
 	/*overflow: hidden;*/
 	/*position: relative;*/
-	letter-spacing: .09em;
+	/*letter-spacing: .09em;*/
 	margin-top: 10px;
 	margin: 0 auto;
-}
-
-#home .hero .large{
-	font-weight: bold;
-	font-size: 40px;
-	color: #FFFFFF;
-	text-transform: uppercase;
-	/*margin: 45px 0 0 136px;*/
-	/*position: relative;*/
-	z-index: 2;
-	letter-spacing: 2px;
-}
-
-#home .hero .small{
-	font-weight: bold;
-	color: #FFFFFF;
-	font-size: 18px;
-	margin: 10px 0 0 115px;
-	line-height: 30px;
-	position: relative;
-	z-index: 2;
-	text-transform: uppercase;
-	text-align: center;
-	width: 375px;
-	letter-spacing: 1px;
 }
 
 #home .form-wrap{
 	height: 80px;
 	width: 411px;
 	margin: 0px auto 0;
-}
-
-#home .form-wrap .key{
-	width: 46px;
-	height: 19px;
-	margin: 0 auto;
-	background: url(/assets/home/key.png) 0 0 no-repeat;
-	background-size: 46px 19px;
 }
 
 #home .form-wrap .byline{

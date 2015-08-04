@@ -91,7 +91,7 @@ html.home{
 	width: 46px;
 	height: 19px;
 	margin: 0 auto;
-	background: url(/assets/home/key.png) 0 0 no-repeat;
+	/*background: url(/assets/home/key.png) 0 0 no-repeat;*/
 	background-size: 46px 19px;
 }
 
@@ -656,8 +656,8 @@ only screen and (-o-min-device-pixel-ratio: 2/1),
 only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
-		background: url(/assets/home/hero.png) center center no-repeat;
-		background-size: 1600px 446px;
+		background: url(/assets/refer/Grefer/home_logo.png) center center no-repeat;
+		background-size: 500px 352px;
 	}
 
 	#home .form-wrap .key{
@@ -666,12 +666,12 @@ only screen and (min-device-pixel-ratio: 2) {
 	}
 
 	#refer .header .logo{
-		background: url(/assets/refer/logo@2x.png) 0 0 no-repeat;
-		background-size: 106px 19px;
+		/*background: url(/assets/refer/logo@2x.png) 0 0 no-repeat;
+		background-size: 106px 19px; */
 	}
 
 	#refer .mammoth{
-		background: url(/assets/refer/mammoth@2x.png) 0 0 no-repeat;
+		background: url(/assets/refer/Grefer/model.png) 0 0 no-repeat;
 		background-size: 610px 394px;
 	}
 

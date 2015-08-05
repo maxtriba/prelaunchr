@@ -1,5 +1,7 @@
+<link href='http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300' rel='stylesheet' type='text/css'>
+
 <div class="hero">
-<img src="/assets/refer/Grefer/home_logo.png">
+
 </div>
 
 <div class="form-wrap clearfix <%= "ended" if Rails.application.config.ended %>">
@@ -15,6 +17,8 @@
         <%= form_for @user, :url => { :action => "create" } do |f| %>
             <%= f.text_field :email, :placeholder => "Enter Email (for launch notification)", :class => "email brandon" %>
             <input class="submit brandon" name="commit" type="submit" value="Step Inside!" />
+        <p> &nbsp; </p>
+        <p class="byline brandon">Subscription Guitar Strings. Launching Soon.</p>
         <% end %>
     <% end %>
 </div>

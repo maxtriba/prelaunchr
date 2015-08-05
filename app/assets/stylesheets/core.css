@@ -35,7 +35,7 @@ html.home{
 }
 
 #home{
-	margin-top: 15px;
+	margin-top: 65px;
 	padding-bottom: 50px;
 }
 
@@ -47,7 +47,7 @@ html.home{
 #home .hero{
 	width: 510px;
 	height: 362px;
-	/*background: url(/assets/refer/Grefer/test_logo.png) center center no-repeat;*/
+	background: url(/assets/refer/Grefer/home_logo.png) center center no-repeat;
 	background-size: 510px, 362px;
 	overflow: hidden;
 	position: relative;
@@ -97,6 +97,7 @@ html.home{
 
 #home .form-wrap .byline{
 	font-size: 15px;
+	font-family: 'Open Sans Condensed', sans-serif;
 	color: #000000;
 	text-align: center;
 	font-weight: bold;
@@ -657,7 +658,7 @@ only screen and (-webkit-min-device-pixel-ratio: 2),
 only screen and (min-device-pixel-ratio: 2) {
 	#home .hero{
 		background: url(/assets/refer/Grefer/home_logo.png) center center no-repeat;
-		background-size: 500px 352px;
+		background-size: 510px 362px;
 	}
 
 	#home .form-wrap .key{

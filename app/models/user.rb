@@ -18,7 +18,7 @@ class User < ActiveRecord::Base
             "image" =>  ActionController::Base.helpers.asset_path("refer/Grefer/picks.png")
         },
         {
-            'count' => 10,
+            'count' => 15,
             "html" => "One Pack of Strings",
             "class" => "three",
             "image" => ActionController::Base.helpers.asset_path("refer/truman@2x.png")

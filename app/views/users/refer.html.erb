@@ -1,5 +1,10 @@
 <link href='http://fonts.googleapis.com/css?family=Bitter:700,400' rel='stylesheet' type='text/css'>
-
+<head>
+        <meta property="og:title" content="Broken G String"/>
+        <meta property="og:description" content="Subscription Guitar Strings"/>
+        <meta property="og:image" content="<%= asset_path("refer/Grefer/G_8opacity_50px.png") %>"/>
+        <meta property="og:url" content="<%= root_url %>"/>
+</head>
 <div class="header">
     <div class="content">
         <p class="logo brandon">Broken G String</p>
@@ -16,7 +21,7 @@
             <p class="title brandon">Invite Friends & Earn Product</p>
             <p class="subtitle brandon">Share your unique link via email, Facebook<br>or Twitter and earn Broken G String products for friends who sign up.</p>
             <div class="copy-link brandon"><%= root_url %>?ref=<%= @user.referral_code %></div>
-            <% twitter_message = "Excited to get my @brokengstring #guitar string replacements!" %>
+            <% twitter_message = "Excited to get my @brokengstring #guitar strings!" %>
             <div class="social-links">
                 <a href="http://www.facebook.com/sharer/sharer.php?u=<%= CGI::escape(root_url) %>?ref=<%= CGI::escape(@user.referral_code) %>&title=GString" class="fb" target="_blank"></a>
                 <div class="sep"></div>

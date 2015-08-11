@@ -21,19 +21,19 @@ class User < ActiveRecord::Base
             'count' => 15,
             "html" => "One Pack of Strings",
             "class" => "three",
-            "image" => ActionController::Base.helpers.asset_path("refer/truman@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("refer/Grefer/G_box.png")
         },
         {
             'count' => 25,
             "html" => "Poster",
             "class" => "four",
-            "image" => ActionController::Base.helpers.asset_path("refer/winston@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("refer/Grefer/Blue_Poster.png")
         },
         {
             'count' => 50,
             "html" => "Launch Party Invite",
             "class" => "five",
-            "image" => ActionController::Base.helpers.asset_path("refer/blade-explain@2x.png")
+            "image" => ActionController::Base.helpers.asset_path("refer/Grefer/YOU_are_invited.png")
         }
     ]
 
